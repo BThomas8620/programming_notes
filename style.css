@@ -1,0 +1,27 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #023047;
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+.pokecard {
+    border: 2px solid white;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    transition: 0.5s;
+}
+
+.pokecard:hover {
+    background-color: #FCBFB7;
+    color: black;
+    transform: translate(20px, 20px);
+}
+
+.pokebox {
+    border: 2px solid aqua;
+}
