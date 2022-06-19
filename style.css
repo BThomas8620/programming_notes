@@ -1,12 +1,12 @@
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    background-color: #464a4a;
+    background-color: #343f3f;
     color: rgb(9, 7, 7);
 }
 
 .header {
     text-align: center;
-    color: rgb(221, 221, 17);
+    color: rgb(207, 221, 17);
 }
 
 .pokecard {
@@ -25,4 +25,28 @@ body {
 
 .pokebox {
     border: 2px solid rgb(212, 232, 30);
+}
+
+    body2 {
+        font-family: 'times', 'arial', monospace;
+        background-color: #021514;
+        color:rgb(228, 244, 243)
+}
+.headliner {
+    text-align: justify;
+}
+
+.fightercard {
+    border: 8px double goldenrod;
+    margin:5px;
+    padding: 20px;
+    display: flex;
+    transition: 0.1s;
+}
+.info:hover {
+    color: darkgoldenrod;
+    transform: translate(5px, 5px);
+    background-color:#343f3f;
+
+
 }
