@@ -40,8 +40,8 @@ body {
     border: 8px double goldenrod;
     margin:5px;
     padding: 20px;
-    display: flex;
     transition: 0.1s;
+    color: white;
 }
 .info:hover {
     color: darkgoldenrod;
@@ -50,3 +50,14 @@ body {
 
 
 }
+
+.card-img-box {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+.card-header-img {
+    justify-content: center;
+}
+
